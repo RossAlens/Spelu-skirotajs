@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #41b3a3;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Rediģēju galvenā virsraksta lielumu */
+
+h1 {
+    font-size: 38px;
+    padding: 0% 0% 0% 0.5%
+
+}
+
+/* Iestatu grid elementu */
+
+.main_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#informacija {
+    background-color: #85DCB8;
+    border: 10px solid #8492A6;
+    width: 720px;
+    height: 408px;
+    text-align: center;
+
+}
+
+#informacija h2 {
+    color: #000000;
+    font-size: 36px;
+    line-height: 46px;
+    width: 533px;
+    text-align: center;
+}
+
+.apaksa {
+    display: flex;
+}
+
+/* rediģēju teksta laukuma un teksta izskatu */
+
+#sasniegumi {
+    background-color: #85DCB8;
+    border: 10px solid #8492A6;
+    width: 420px;
+    height: 513px;
+    margin-right: 0;
+}
+
+#informacija p {
+    color: #000000;
+  font-size: 32px;
+  line-height: 41px;
+  width: 700px;
+  text-align: center;
+}
+
+#sasniegumi h2 {
+    color: #000000;
+    font-size: 26px;
+    line-height: 33px;
+    width: 398px;
+    text-align: center;
+}
+
+#sasniegumi p {
+    color: #000000;
+    font-size: 26px;
+    line-height: 33px;
+    width: 398px;
+    text-align: center;
+}
+
+#sazinaties {
+    background-color: #85DCB8;
+    border: 10px solid #8492A6;
+    width: 300px;
+    height: 513px;
+    display: inline-block;
+}
+
+#sazinaties h2 {
+    color: #000000;
+    font-size: 29px;
+    line-height: 37px;
+    width: 279px;
+    text-align: center;
+}
+
+#sazinaties p {
+    color: #000000;
+    font-size: 26px;
+    line-height: 33px;
+    width: 259px;
+    text-align: center;
+}
+
+
+.text_grid {
+    display: grid;
+}
+
+/* izveidoju grid priekš bildēm un rediģēju katru bildi un teksta gabalu */
+
+.bildes {
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto auto;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+}
+
+.alens {
+    grid-column: 2 / 3;
+    place-items: center;
+}
+
+.alens img {
+    border: 10px solid #8492A6;
+    width: 288px;
+    height: 408px;
+}
+
+.alens p {
+    text-align: center;
+}
+
+.skola {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.skola img {
+    border: 10px solid #8492A6;
+    width: 400px;
+    height: 305px;
+}
+
+.skola p {
+    text-align: center;
+}
+
+.karate {
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
+
+.karate img {
+    border: 10px solid #8492A6;
+    width: 450px;
+    height: 305px;
+}
+
+.karate p {
+    text-align: center;
+}

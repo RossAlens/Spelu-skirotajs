@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(zals.png);
+    font-family: sans-serif;
+    display: grid;
+}
+
+.kreisa_puse {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50% 50%;
+
+}
+
+
+.galvenais_virsraksts {
+color: #16b7b5;
+font-size: 47px;
+left: 1%;
+position: fixed;
+}
+
+.pogas {
+    cursor: pointer;
+    border: 4px solid #16b7b5;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    min-width: 240px;
+}
+
+.poga1 {
+    position: fixed;
+    bottom: 27%;
+    left: 5%;
+}
+
+.poga2 {
+    position: fixed;
+    bottom: 27%;
+    left: 42%;
+}
+
+.poga3 {
+    position: fixed;
+    bottom: 27%;
+    right: 5%;
+}
+
+#ievade1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.tekstalogi input {
+   width: 350px;
+   height: 60px;
+   gap: 10px;
+}
+
+.tekstalogi {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.saglabat div {
+    grid-row: 3/3;
+    grid-column: 2/3;
+}
+
+.labapuse {
+    grid-column: 3/3;
+    grid-row: 4/3;
+}
